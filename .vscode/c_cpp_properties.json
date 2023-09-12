@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "name": "MDK",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Keil_v5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include",
+                "C:/Keil_v5/ARM/PACK/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include"
+            ],
+            "defines": [
+                "__UVISION_VERSION=\"538\"",
+                "_RTE_",
+                "STM32G431xx",
+                "USE_FULL_LL_DRIVER",
+                "USE_HAL_DRIVER",
+                "__CC_ARM"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-arm",
+            "configurationProvider": "iarsystems.iar-build",
+            "mergeConfigurations": false
+        },
+        {
+            "name": "IAR",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
